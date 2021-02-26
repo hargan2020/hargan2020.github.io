@@ -91,7 +91,7 @@
       .timeline .timeline-items .timeline-item.inverted {
         position: relative;
         left: 54%;
-        text-align: right; }
+      }
         .timeline .timeline-items .timeline-item.inverted::before {
           content: '';
           width: 0;
