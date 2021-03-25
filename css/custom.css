@@ -12,8 +12,8 @@ h2 {
   letter-spacing: 0.5px;
 }
 
-hr {
-  color: rbga(255, 255, 255, 0.25);
+.special-separator {
+  border-top: rgba(255, 255, 255, 0.25) !important;
 }
 
 emoji {
@@ -29,4 +29,14 @@ time {
   color: white;
   padding: 4px 10px;
   border-radius: 5px;
+}
+
+.ml10 {
+
+}
+
+@media (max-width: 1200px) {
+  time {
+    font-size: 24px;
+  }
 }
