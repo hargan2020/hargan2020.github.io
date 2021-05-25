@@ -40,3 +40,36 @@ time {
     font-size: 24px;
   }
 }
+
+.black-border-500px-img {
+  width: 500px;
+  text-align: center;
+  border-radius: 5px;
+  border: 5px solid black;
+  box-shadow: 0 0 10px #555;
+  margin: 0 auto;
+  display: block;
+}
+
+.black-border-300px-img {
+  width: 300px;
+  text-align: center;
+  border-radius: 5px;
+  border: 5px solid black;
+  box-shadow: 0 0 10px #555;
+}
+
+.red-round-border-300px {
+  width: 300px;
+  border-radius: 50%;
+  border: 2.5px solid rgba(222, 40, 40, 0.5);
+  box-shadow: 0 0 10px rgba(222, 40, 40, 0.8);
+}
+
+.red-round-border-285px {
+  width: 285px;
+}
+
+.f-right {
+  float: right;
+}
