@@ -1,0 +1,107 @@
+body {
+  padding: 100px 0px 0px 125px;
+  background-color: #FFF;
+}
+
+span {
+  font-family: "Work Sans";
+  font-size: 750px;
+  -webkit-text-stroke: 4px black;
+}
+
+#one {
+  background: url("../img/06dec2020.jpeg") -200px 150px no-repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#two {
+  background: url("../img/12dec2020.jpeg") -220px -70px no-repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#three, #twelve {
+  margin-right: 200px;
+}
+#four {
+  background: url("../img/19dec2020.jpeg") -216px 40px no-repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#five {
+  background: url("../img/17jan2021.jpeg") -200px 30px no-repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#six {
+  background: url("../img/23jan2021.jpeg") -400px 40px no-repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#seven {
+  background: url("../img/23jan2021.jpeg") -707px 95px no-repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#eight {
+  background: url("../img/07feb2021.jpeg") -107px 78px no-repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#nine {
+  background: url("../img/14feb2021.jpeg") -544px -20px no-repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#ten {
+  background: url("../img/20feb2021.jpeg") -304px 187px no-repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#eleven {
+  background: url("../img/27feb2021_motibagh.jpeg") -242px -52px no-repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#thirteen {
+  background: url("../img/27feb2021_qd.jpeg") -204px 10px no-repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#fourteen {
+  background: url("../img/07mar2021_punjabgrill.jpeg") -226px 111px no-repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#fifteen {
+  background: url("../img/07mar2021_cybercity.jpeg") -397px -100px no-repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#sixteen {
+  background: url("../img/21mar2021_3.jpeg") -142px 63px no-repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.year {
+  margin-top: -200px;
+  text-align: center;
+}
+
+.label {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.names {
+  font-family: "Great Vibes";
+  font-size: 203px;
+  background: #111;
+  padding: 36px 137px;
+  border-radius: 43px;
+  color: white;
+}
+
+.names>emoji {
+  font-size: 150px;
+}
