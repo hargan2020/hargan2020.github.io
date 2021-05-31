@@ -1,0 +1,41 @@
+body {
+  font-family: 'Nunito', sans-serif;
+}
+
+p {
+  margin: 0;
+  padding: 10px;
+}
+
+.container {
+  margin: 25px auto;
+  width: 1200px;
+  box-shadow: 0 0 10px #333;
+}
+
+.bg {
+  width: 100%;
+}
+
+.message {
+  background: #222;
+  color: #DDD;
+  font-weight: 100;
+  font-size: 28px;
+  margin-top: -6px;
+}
+
+.main_text {
+  font-size: 48px;
+  text-align: center;
+  display: block;
+  margin-bottom: 25px;
+}
+
+.cheers {
+  display: block;
+  font-size: 48px;
+  text-align: center;
+  margin-top: 20px;
+  background-color: black;
+}
