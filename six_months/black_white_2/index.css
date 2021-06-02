@@ -1,0 +1,58 @@
+body {
+  font-family: "Caveat"
+}
+
+.container {
+  width: 90%;
+  margin: 20px auto;
+}
+
+.left, .right {
+  display: inline-block;
+  width: 40%;
+  margin-right: -5px;
+  height: 978px;
+  vertical-align: top;
+  -webkit-box-shadow: 0 0 10px #000;
+}
+
+.left {
+  margin-left: 7.5px;
+  padding: 20px 0px 20px 20px;
+  background: #222;
+  filter: grayscale(100%);
+}
+
+.left_image {
+  width: 99%;
+  height: 99.3%;
+  float: right;
+}
+
+.right {
+  padding: 20px 20px 20px 10px;
+  background-color: #EEE;
+}
+
+.right_inner {
+  background-color: #222;
+  margin-left: -8px;
+  padding: 10px;
+  height: 954px;
+  color: white;
+}
+
+.text-40 {
+  font-size: 36px;
+  display: block;
+  text-align: center;
+}
+
+.text-28 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.m-top-10 {
+  margin-top: 10px;
+}
