@@ -1,0 +1,38 @@
+body {
+  font-family: "Gloria Hallelujah";
+}
+
+.container {
+  width: 850px;
+  margin: 20px;
+  box-shadow: 0 0 20px #222;
+}
+
+img {
+  width: 850px;
+  filter: grayscale();
+}
+
+.lyrics {
+  background-color: #333;
+  width: 830px;
+  color: white;
+  padding: 10px;
+  margin-top: -10px;
+  font-size: 28px;
+  text-align: center;
+  position: relative;
+  top: -50px;
+  height: 433px;
+}
+
+.tagline {
+  text-align: center;
+  font-size: 48px;
+  color: #669AF9;
+  background-color: black;
+  font-family: "Caveat";
+  letter-spacing: 1px;
+  width: 852px;
+  margin-left: -10px;
+}
