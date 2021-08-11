@@ -1,0 +1,38 @@
+body {
+  background: #DDD;
+  font-family: "Raleway";
+}
+
+.block {
+  width: 80%;
+  height: 100%;
+  background: white;
+  margin: 0 auto;
+  padding: 25px;
+}
+
+img {
+  width: 410px;
+  display: block;
+  box-shadow: 0 0 25px #777;
+}
+
+.dots {
+  display: none;
+}
+
+.caption {
+  margin: 0px;
+  padding: 10px 5px;
+  background: #111;
+  color: white;
+  width: 400px;
+  line-height: 1.5;
+}
+
+.top-caption {
+  font-size: 32px;
+  width: 600px;
+  text-align: center;
+  padding: 25px;
+}
