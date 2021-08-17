@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Quicksand"
+}
+
+.container {
+  background-color: #222;
+}
+
+.left {
+  display: inline-block;
+  float: left;
+  width: 310px;
+}
+
+.image {
+  position: relative;
+  top: -30px;
+}
+
+.heading {
+  color: white;
+  position: relative;
+  font-weight: 900;
+  text-align: center;
+}
+
+.presenting {
+  display: block;
+  font-size: 4em;
+}
+
+.gagan {
+  display: block;
+  font-size: 6em;
+}
+
+.v2point0 {
+  display: block;
+  font-size: 9em;
+}
+
+.points {
+  background: white;
+  font-size: 18px;
+}
+
+.point {
+  text-align: left;
+}
