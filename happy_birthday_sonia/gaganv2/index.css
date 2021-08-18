@@ -6,6 +6,7 @@ body {
 
 .container {
   background-color: #222;
+  height: 420px;
 }
 
 .left {
@@ -17,6 +18,7 @@ body {
 .image {
   position: relative;
   top: -30px;
+  width: 100%;
 }
 
 .heading {
