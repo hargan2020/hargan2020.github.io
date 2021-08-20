@@ -51,11 +51,6 @@ img {
   padding: 10px 0px;
 }
 
-.one {
-  padding-top: 100px;
-  background-image: url("../img/IMG-20210215-WA0017.jpg");
-}
-
 section {
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -70,4 +65,173 @@ section {
   100% {
     transform: scale(1.0)
   }
+}
+
+.one {
+  padding-top: 100px;
+  background-image: url("../img/IMG-20210215-WA0017.jpg");
+}
+.two {
+  background-image: url("../img/06jun2021_show_piece.png");
+}
+
+.three {
+  background-image: url("../img/IMG-20210217-WA0026.jpg");
+
+}
+.four {
+  background-image: url("../img/IMG-20210319-WA0003.jpg");
+
+}
+.five {
+  background-image: url("../img/IMG-20210320-WA0006.jpg");
+
+}
+.six {
+  background-image: url("../img/jun2021random2.png");
+
+}
+.seven {
+  background-image: url("../img/jun2021random1.jpeg");
+
+}
+.eight {
+  background-image: url("../img/IMG-20210322-WA0008.jpg");
+
+}
+.nine {
+  background-image: url("../img/IMG-20210211-WA0004.jpg");
+
+}
+.ten {
+  background-image: url("../img/20210406_100822.jpg");
+
+}
+.eleven {
+  background-image: url("../img/apr_3w_3.png");
+
+}
+.twelve {
+  background-image: url("../img/14feb2021_home1.jpeg");
+
+}
+.thirteen {
+  background-image: url("../img/10jul2021_1.jpeg");
+
+}
+.fourteen {
+  background-image: url("../img/06jul2021.jpeg");
+
+}
+.fifteen {
+  background-image: url("../img/07mar2021_punjabgrill.jpeg");
+
+}
+.sixteen {
+  background-image: url("../img/10apr2021_2.jpeg");
+
+}
+.seventeen {
+  background-image: url("../img/23_may_letter_original.jpeg");
+
+}
+.eighteen {
+  background-image: url("../img/20210101_085238.jpg");
+
+}
+.nineteen {
+  background-image: url("../img/20201220_151202.jpg");
+
+}
+.twenty {
+  background-image: url("../img/20201215_105849.jpg");
+
+}
+.twentyone {
+  background-image: url("../img/25jul2021_2.jpeg");
+
+}
+.twentytwo {
+  background-image: url("../img/");
+
+}
+.twentythree {
+  background-image: url("../img/");
+
+}
+.twentyfour {
+  background-image: url("../img/");
+
+}
+.twentyfive {
+  background-image: url("../img/");
+
+}
+.twentysix {
+  background-image: url("../img/");
+
+}
+.twentyseven {
+  background-image: url("../img/");
+
+}
+.twentyeight {
+  background-image: url("../img/");
+
+}
+.twentynine {
+  background-image: url("../img/");
+
+}
+.thirty {
+  background-image: url("../img/");
+
+}
+.thirtyone {
+  background-image: url("../img/");
+
+}
+.thirtytwo {
+  background-image: url("../img/");
+
+}
+.thirtythree {
+  background-image: url("../img/");
+
+}
+.thirtyfour {
+  background-image: url("../img/");
+
+}
+.thirtyfive {
+  background-image: url("../img/");
+
+}
+.thirtysix {
+  background-image: url("../img/");
+
+}
+.thirtyseven {
+  background-image: url("../img/");
+
+}
+.thirtyeight {
+  background-image: url("../img/");
+
+}
+.thirtynine {
+  background-image: url("../img/");
+
+}
+.forty {
+  background-image: url("../img/");
+
+}
+.fortyone {
+  background-image: url("../img/");
+
+}
+.fortytwo {
+  background-image: url("../img/");
+
 }
