@@ -9,6 +9,7 @@ body {
   background: transparent;
   margin: 0 auto;
   padding: 25px;
+  backdrop-filter: blur(10px);
 }
 
 img {
@@ -25,7 +26,7 @@ img {
   font-size: 32px;
   margin: 0px;
   padding: 25px;
-  background: rgba(255, 255, 255, 0.7);
+  background: rgba(255, 255, 255, 0.50);
   color: black;
   width: 712px;
   line-height: 1.5;
@@ -72,7 +73,7 @@ section {
   background-image: url("../img/IMG-20210215-WA0017.jpg");
 }
 .two {
-  background-image: url("../img/06jun2021_show_piece.png");
+  background-image: url("../img/27mar2021_3.jpg")
 }
 
 .three {
@@ -80,11 +81,11 @@ section {
 
 }
 .four {
-  background-image: url("../img/IMG-20210319-WA0003.jpg");
+  background-image: url("../img/06jun2021_show_piece.png");
 
 }
 .five {
-  background-image: url("../img/IMG-20210320-WA0006.jpg");
+  background-image: url("../img/may_video_call_2_alone.png");
 
 }
 .six {
@@ -92,11 +93,11 @@ section {
 
 }
 .seven {
-  background-image: url("../img/jun2021random1.jpeg");
+  background-image: url("../img/20210406_100822.jpg");
 
 }
 .eight {
-  background-image: url("../img/IMG-20210322-WA0008.jpg");
+  background-image: url("../img/06dec2020.jpeg");
 
 }
 .nine {
@@ -104,7 +105,7 @@ section {
 
 }
 .ten {
-  background-image: url("../img/20210406_100822.jpg");
+  background-image: url("../img/IMG-20210322-WA0008.jpg");
 
 }
 .eleven {
@@ -112,11 +113,11 @@ section {
 
 }
 .twelve {
-  background-image: url("../img/14feb2021_home1.jpeg");
+  background-image: url("../img/IMG-20210214-WA0026.jpg");
 
 }
 .thirteen {
-  background-image: url("../img/10jul2021_1.jpeg");
+  background-image: url("../img/sad_babes.jpg");
 
 }
 .fourteen {
@@ -124,7 +125,7 @@ section {
 
 }
 .fifteen {
-  background-image: url("../img/07mar2021_punjabgrill.jpeg");
+  background-image: url("../img/23jan2021.jpg");
 
 }
 .sixteen {
@@ -136,15 +137,15 @@ section {
 
 }
 .eighteen {
-  background-image: url("../img/20210101_085238.jpg");
+  background-image: url("../img/valentines_gift.png");
 
 }
 .nineteen {
-  background-image: url("../img/20201220_151202.jpg");
+  background-image: url("../img/hand_holding.png");
 
 }
 .twenty {
-  background-image: url("../img/20201215_105849.jpg");
+  background-image: url("../img/distance.png");
 
 }
 .twentyone {
@@ -152,86 +153,103 @@ section {
 
 }
 .twentytwo {
-  background-image: url("../img/");
+  background-image: url("../img/close.png");
 
 }
 .twentythree {
-  background-image: url("../img/");
+  background-image: url("../img/bae_insta_old.png");
 
 }
 .twentyfour {
-  background-image: url("../img/");
+  background-image: url("../img/twinning.png");
 
 }
 .twentyfive {
-  background-image: url("../img/");
+  background-image: url("../img/10jul2021_1.jpeg");
 
 }
 .twentysix {
-  background-image: url("../img/");
+  background-image: url("../img/IMG-20210211-WA0004.jpg");
 
 }
 .twentyseven {
-  background-image: url("../img/");
+  background-image: url("../img/matrimonial_sonia.png");
 
 }
 .twentyeight {
-  background-image: url("../img/");
+  background-image: url("../img/apr_3w_6.jpeg");
 
 }
 .twentynine {
-  background-image: url("../img/");
+  background-image: url("../img/back_hug.png");
 
 }
 .thirty {
-  background-image: url("../img/");
+  background-image: url("../img/IMG-20210320-WA0006.jpg");
 
 }
 .thirtyone {
-  background-image: url("../img/");
+  background-image: url("../img/may_video_call_2_alone.png");
 
 }
 .thirtytwo {
-  background-image: url("../img/");
+  background-image: url("../img/14feb2021_home1.png");
 
 }
 .thirtythree {
-  background-image: url("../img/");
+  background-image: url("../img/b3943a0a.jpg");
 
 }
 .thirtyfour {
-  background-image: url("../img/");
+  background-image: url("../img/pinch_of_spice.png");
 
 }
 .thirtyfive {
-  background-image: url("../img/");
+  background-image: url("../img/06jul2021.jpeg");
 
 }
 .thirtysix {
-  background-image: url("../img/");
+  background-image: url("../img/agar_tum_saath_ho.png");
 
 }
 .thirtyseven {
-  background-image: url("../img/");
+  background-image: url("../img/17jul2021_7.jpg");
 
 }
 .thirtyeight {
-  background-image: url("../img/");
+  background-image: url("../img/cake.png");
 
 }
 .thirtynine {
-  background-image: url("../img/");
+  background-image: url("../img/16apr2021_1.jpeg");
 
 }
 .forty {
-  background-image: url("../img/");
+  background-image: url("../img/delhi.png");
 
 }
 .fortyone {
-  background-image: url("../img/");
+  background-image: url("../img/diggin_bae.png");
 
 }
 .fortytwo {
-  background-image: url("../img/");
-
+  background-image: url("../img/15aug2021_3.jpeg");
 }
+.fortythree {
+  background-image: url("../img/gal_put.png");
+}
+.fortyfour {
+  background-image: url("../img/gal_put.png");
+}
+.fortyfive {
+  background-image: url("../img/anniv_kissi.png");
+}
+.fortysix {
+  background-image: url("../img/moteeee.png")
+}
+
+.fortysix > .block > .caption {
+  background-color: rgba(0, 0, 0, 0.50);
+  color: white
+}
+

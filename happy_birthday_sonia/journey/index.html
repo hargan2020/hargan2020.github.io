@@ -9,6 +9,10 @@
   <script src="js/full-page-scroll.js"></script>
 </head>
 <body>
+  <!-- <audio autoplay controls muted>
+    <source src="Sajjda.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio> -->
   <div id="main" class="scroll-container">
     <section class="one">
       <div class="block">
@@ -20,7 +24,7 @@
     <section class="two">
       <div class="block">
         <p class="top-caption caption">Any guesses why?</p>
-        <p class="top-caption caption">Because on this special day, apart from few other things, you'll get to read our beautiful journey and how things unfolded between us 🥰<br>Our website already has many details already, but this contains highlights 😁</p>
+        <p class="top-caption caption"><br>Because on this special day, apart from few other things, you'll get to read our beautiful journey and how things unfolded between us 🥰. And how two people came so close to each other, from being absolute strangers initially 😁</p>
         <p class="happy_birthday_sonia">#HappyBirthdaySonia</p>
       </div>
     </section>
@@ -29,7 +33,8 @@
         <p class="top-caption caption">First 3 weeks of Nov 2020</p>
         <p class="top-caption caption">
           Families registered @ Gurudwara Sahib Rajouri Garden<br><br>
-          Families called each other to discuss the Rishta 😇
+          Families called each other to discuss the Rishta 😇<br><br>
+          Maybe Sonia thought that like other rishtas, this will also get rejected, because of some or the other reason.
         </p>
         <p class="happy_birthday_sonia">#HappyBirthdaySonia</p>
       </div>
@@ -72,7 +77,8 @@
         <p class="top-caption caption">02 Dec 2020</p>
         <p class="top-caption caption">
           Gagan with mother visited Sonia's home<br><br>
-          Had a semi-formal discussion, roaming on second floor balcony, with 5 feet distance between us 🤭
+          Had a semi-formal discussion, roaming on second floor balcony, with 5 feet distance between us 🤭<br><br>
+          Few months later, see the distance between us in the background photo😘
         </p>
         <p class="happy_birthday_sonia">#HappyBirthdaySonia</p>
       </div>
@@ -119,7 +125,7 @@
         <p class="top-caption caption">
           First lunch at a decent place (Imly)<br><br>
           Realized both of us talk less 🧐<br><br>
-          Came back home in about 2.5 hours (Naman's reaction - wapis bhi aagaye) - Remember 🤣?
+          Came back home in about 2.5 hours (Naman's reaction - wapis bhi aagaye ?) - Remember 🤣?
         </p>
         <p class="happy_birthday_sonia">#HappyBirthdaySonia</p>
       </div>
@@ -128,9 +134,9 @@
       <div class="block">
         <p class="top-caption caption">3 Jan 2021</p>
         <p class="top-caption caption">
-            Panda visited her future home. Made her see entire house + roof 😍<br><br>
-            Super formal photos with everyone<br><br>
-            I regret that I was not even wearing proper clothes, and didn't tie beard that day. Sonia bhi kehti hogi - kaisa lallu palle padgya 😝
+          Panda visited her future home. Made her see entire house + roof 😍<br><br>
+          Super formal photos with everyone<br><br>
+          I regret that I was not even wearing proper clothes, and didn't tie beard that day. Sonia bhi kehti hogi - kaisa lallu palle padgya 😝
         </p>
         <p class="happy_birthday_sonia">#HappyBirthdaySonia</p>
       </div>
@@ -472,12 +478,53 @@
         <p class="happy_birthday_sonia">#HappyBirthdaySonia</p>
       </div>
     </section>
+    <section class="fortythree">
+      <div class="block">
+        <p class="top-caption caption">23 Aug 2021</p>
+        <p class="top-caption caption">
+          Notes about kalakaar cafe
+        </p>
+        <p class="happy_birthday_sonia">#HappyBirthdaySonia</p>
+      </div>
+    </section>
+    <section class="fortyfour">
+      <div class="block">
+        <p class="top-caption caption">29 Aug 2021</p>
+        <p class="top-caption caption">
+          This is forty fourth section of our story. And this doesn't include many small meetings, cloth naap/trials, etc. So we've met almost 50 times or more 🤟. Shadi mei gap daalna tha, but itna zada milna hoga, yeh nahi pta tha. Always shukarana to god, parents and to you.
+        </p>
+        <p class="happy_birthday_sonia">#HappyBirthdaySonia</p>
+      </div>
+    </section>
+    <section class="fortyfive">
+      <div class="block">
+        <p class="top-caption caption">29 Aug 2021</p>
+        <p class="top-caption caption">
+          I know you always wanted me to make some sort of video, hence this is an attempt to make a video like content (though this is still a website 😛, because that's the only thing I can do good).<br><br>
+          This was the big gift I was talking about (not sure how big). Kesa laga moti?<br><br>
+        </p>
+        <p class="happy_birthday_sonia">#HappyBirthdaySonia</p>
+      </div>
+    </section>
+    <section class="fortysix">
+      <div class="block">
+        <p class="top-caption caption">THE END</p>
+        <p class="top-caption caption"><br><br>
+          A very very happy wala birthday 🎂 again to my lovely lady 👩, mera gappu 😄, my strength 💪 and my weakness ❄️ at the same time, my world 🌎, my everything 💌💑💕<br><br>
+        </p>
+        <p class="happy_birthday_sonia">#HappyBirthdaySonia</p>
+      </div>
+    </section>
   </div>
 </body>
 </html>
 
-
+<script
+src="https://code.jquery.com/jquery-3.6.0.min.js"
+integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+crossorigin="anonymous"></script>
 <script type="text/javascript">
+  playStarted = false;
   new fullScroll({
     mainElement: "main",
     displayDots: true,
@@ -485,4 +532,18 @@
     animateTime: 0.7,
     animateFunction: 'ease'
   });
+
+
+  $('body').on('click', 'section', function(event) {
+    if(playStarted == false) {
+      var myAudio = new Audio('audio/tich.mp3');
+      myAudio.addEventListener('ended', function() {
+        this.currentTime = 0;
+        this.play();
+      }, false);
+      myAudio.play();
+      playStarted = true
+    }
+  });
+
 </script>
