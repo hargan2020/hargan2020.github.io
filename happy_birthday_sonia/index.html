@@ -10,10 +10,29 @@
 <body>
   <div class="container">
     <img src="collage.jpg">
-    <p>To that one special girl, who brings all sorts of excitement and colors to my life - I love you and I wish you a very happy birthday. I promise to make your entire life (not just your birthday) the best journey you've ever experienced. Together we can, and we will achieve anything and everything in our lives 😘🥳.
+    <p>To that one special girl, who brings all sorts of excitement and colors to my life - I love you and I wish you a very happy birthday. I promise to make your entire life (not just your birthday) the best journey you've ever experienced. Together we can, and we will achieve anything and everything in our life 😘🥳🥰💋.
     </p>
 
     <div class="happy_birthday_sonia">#HappyBirthdaySonia</div>
   </div>
 </body>
 </html>
+
+<script
+src="https://code.jquery.com/jquery-3.6.0.min.js"
+integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+crossorigin="anonymous"></script>
+<script type="text/javascript">
+  playStarted = false;
+  $('body').on('click', '.container', function(event) {
+    if(playStarted == false) {
+      var myAudio = new Audio('tum_hi_ho.mp3');
+      myAudio.addEventListener('ended', function() {
+        this.currentTime = 0;
+        this.play();
+      }, false);
+      myAudio.play();
+      playStarted = true
+    }
+  });
+</script>

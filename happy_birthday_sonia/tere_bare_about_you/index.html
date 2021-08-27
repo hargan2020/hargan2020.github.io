@@ -30,13 +30,36 @@
       <li class="point">My Personality improver 🤝</li>
       <li class="point">A cheerful and religious life partner 😇</li>
       <li class="point">The cutest person I'd ever have imagined in my life 🥺</li>
-      <li class="point">Mera panda, gappu, mappu, chappu, ghappu, MomoGappa, my love, my heartbeat, my reason of life, my everything 😘💋❣️</li>
+      <li class="point">Mera panda, gappu, mappu, chappu, ghappu, MomoGappa, my love, my heartbeat, my reason of life, my darling, my everything; MY WIFE 😘💋❣️</li>
       <li class="point">Last but not the least - 3 degree holder 🎓🎓🎓</li>
     </ul>
 
-    <p class="point-down">I got exactly I wanted - hence I want to sing this for you: <br><span class="bold">Na chahiye kuch - tumse zyada - tumse kam nahi</span></p>
+    <p class="point-down">I got exactly I wanted - hence I want to sing this for you:
+      <br><br>
+      <span class="bold">Jo tum na ho, toh hum bhi hum nahi</span><br>
+      <span class="bold">Na chahiye kuch - tumse zyada - tumse kam nahi 😘😘</span>
+    </p>
 
     <div class="happy_birthday_sonia">#HappyBirthdaySonia</div>
   </div>
 </body>
 </html>
+
+<script
+src="https://code.jquery.com/jquery-3.6.0.min.js"
+integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+crossorigin="anonymous"></script>
+<script type="text/javascript">
+  playStarted = false;
+  $('body').on('click', '.container', function(event) {
+    if(playStarted == false) {
+      var myAudio = new Audio('tere_bare_about_you.mp3');
+      myAudio.addEventListener('ended', function() {
+        this.currentTime = 0;
+        this.play();
+      }, false);
+      myAudio.play();
+      playStarted = true
+    }
+  });
+</script>
